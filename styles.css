@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+table,th,tr{
+	border:1px solid black;
+	padding:5px;
+	margin:1px;
+	border-collapse:collapse;
+}
