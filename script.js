@@ -16,6 +16,8 @@ e.preventDefault();
 	cell1.innerHTML=title;
 	cell2.innerHTML=author;
 	cell3.innerHTML=isbn;
+
+	const cell4=newrow.insertCell(3);
 	cell4.innerHTML=`<button class="delete">X</button>`;
 
 	document.getElementById("title").value="";
