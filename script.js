@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.getElementsByClassName("form-group").addEventListener("submit",function(e){
+document.querySelector(".form-group").addEventListener("submit",function(e){
 e.preventDefault();
 	const title=document.getElementById("title").value;
 		const author=document.getElementById("author").value;
