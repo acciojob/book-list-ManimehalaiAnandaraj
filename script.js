@@ -13,8 +13,7 @@ e.preventDefault();
 	const cell1=newrow.insertCell(0);
 	const cell2=newrow.insertCell(1);
 	const cell3=newrow.insertCell(2);
-	const cell4=newrow.insertCell(3);
-
+	
 	cell1.innerHTML=title;
 	cell2.innerHTML=author;
 	cell3.innerHTML=isbn;
