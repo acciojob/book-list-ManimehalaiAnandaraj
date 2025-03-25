@@ -7,6 +7,7 @@ e.preventDefault();
 
 		const table=document.getElementById("book-list").
 			getElementsByTagName("tbody")[0];
+	
 	const newrow=table.insertRow(table.rows.length);
 
 	const cell1=newrow.insertCell(0);
