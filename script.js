@@ -15,7 +15,7 @@
                 <td>${title}</td>
                 <td>${author}</td>
                 <td>${isbn}</td>
-                <td><button class="delete" onclick="removeBook(this)">Clear</button></td>
+                <td><button class="delete" onclick="removeBook(this)">X</button></td>
             `;
             
             list.appendChild(row);
