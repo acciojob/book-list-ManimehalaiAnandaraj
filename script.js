@@ -1,12 +1,11 @@
 //your JS code here. If required.
 function addbook() {
-	
 
 	const title=document.getElementById("title").value;
 		const author=document.getElementById("author").value;
 		const isbn=document.getElementById("isbn").value;
 
-	if(title ==="" || author ==="" || isbn==="")
+	if(title ===" || author ===" || isbn===")
 	{
 		alert("Please fill in all fields");
 		return;
@@ -20,7 +19,7 @@ function addbook() {
 	<td>${title}</td>
 	<td>${author}</td>
 	<td>${isbn}</td>
-	<td><button class="delete" onclick="removebook(this)">X</button>
+	<td><button class="delete" onclick="removebook(this)">X</button></td>
 	`;
 	table.appendChild(newrow);
 	
